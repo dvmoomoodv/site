@@ -66,3 +66,19 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+react router 
+https://reactrouter.com/web/guides/quick-start
+yarn add react-router-dom
+
+yarn add cross-env --dev
+
+yarn add query-string
+
+
+https://velopert.com/3417   -> 라우터 1장 
+
+https://digital-flowers.github.io/react-animated-css.html
+npm i react-animated-css --save    animate css
