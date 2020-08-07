@@ -1,12 +1,7 @@
 import React from 'react';
-import queryString from 'query-string';
 import Logo from '../comonents/Logo';
 
 const About = ({location, match}) => {
-    const query = queryString.parse(location.search);
-
-    const detail = query.detail === 'true';
-
     return (
         <div class="about">
             <Logo></Logo>
@@ -17,7 +12,7 @@ const About = ({location, match}) => {
                 
                 <div class="col-12">
                     <div class="bg shadow"></div>
-                    <img class="shadow" src={ require('../image/profile.jpg') } />    
+                    <img class="shadow" src={ require('../image/profile.jpg') } alt="img"/>    
                 </div>
                 
                 <div class="col-12 mt-3">

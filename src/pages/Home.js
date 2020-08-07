@@ -1,6 +1,4 @@
 import React from 'react';
-import {Animated} from "react-animated-css";
-import Footer from '../comonents/Footer';
 
 const Home = () => {
     return (
@@ -14,9 +12,7 @@ const Home = () => {
             </div>
             <div class="row">
                 <div class="col">
-                    {/* <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}> */}
-                        <img src={ require('../image/bg.jpg') } />
-                    {/* </Animated> */}
+                    <img src={ require('../image/bg.jpg') } alt="img"/>
                 </div>
             </div>
             <div class="row">

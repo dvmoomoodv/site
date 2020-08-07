@@ -4,11 +4,6 @@ import Logo from './Logo';
 
 
 const Menu = () => {
-    const activeStyle = {
-        // color: 'green',
-        // fontSize: '2rem'
-    };
-
     return (
 // https://stackoverflow.com/questions/47455788/reactjs-navlink-activeclassname
         <nav class="navbar navbar-expand-lg">

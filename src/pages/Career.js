@@ -4,9 +4,9 @@ const Career = () => {
     return (
         <div class="career">
 
-			<img class="bg" src={ require('../image/career1.jpg') } />
-			<img class="bg" src={ require('../image/career2.jpg') } />
-			<img class="bg" src={ require('../image/career3.jpg') } />
+			<img class="bg" src={ require('../image/career1.jpg') } alt="img"/>
+			<img class="bg" src={ require('../image/career2.jpg') } alt="img"/>
+			<img class="bg" src={ require('../image/career3.jpg') } alt="img"/>
 			<div class="row">
                 <div class="col-12 title">
                     <span class="d-block">경력</span>
@@ -15,9 +15,7 @@ const Career = () => {
             </div>
 			<div class="row">
                 <div class="col">
-                    {/* <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}> */}
-                        <img src={ require('../image/career_main.png') } />
-                    {/* </Animated> */}
+					<img src={ require('../image/career_main.png') } alt="img"/>
                 </div>
             </div>
 			<div class="row">
